@@ -1,0 +1,221 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Administrador EcoPoints",
+      "email": "admin@ecopoints.com",
+      "password": "admin123",
+      "role": "admin",
+      "phone": "(11) 90000-0000",
+      "createdAt": "2026-08-01T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Maria Souza",
+      "email": "maria@email.com",
+      "password": "123456",
+      "role": "user",
+      "phone": "(11) 98888-1111",
+      "createdAt": "2026-08-15T14:20:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "João Pereira",
+      "email": "joao@email.com",
+      "password": "123456",
+      "role": "user",
+      "phone": "(11) 97777-2222",
+      "createdAt": "2026-09-02T09:45:00.000Z"
+    }
+  ],
+  "materials": [
+    {
+      "id": 1,
+      "name": "Garrafa PET",
+      "category": "Plástico",
+      "pointsPerKg": 10,
+      "description": "Garrafas plásticas de refrigerante, água e sucos. Entregar limpas e amassadas.",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Papelão",
+      "category": "Papel",
+      "pointsPerKg": 5,
+      "description": "Caixas de papelão desmontadas e secas.",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Latinha de Alumínio",
+      "category": "Metal",
+      "pointsPerKg": 25,
+      "description": "Latas de bebida em alumínio, preferencialmente amassadas.",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "Vidro",
+      "category": "Vidro",
+      "pointsPerKg": 4,
+      "description": "Garrafas e potes de vidro sem tampa. Não aceitamos vidro quebrado solto.",
+      "active": true
+    },
+    {
+      "id": 5,
+      "name": "Óleo de Cozinha",
+      "category": "Óleo",
+      "pointsPerKg": 15,
+      "description": "Óleo de cozinha usado, armazenado em garrafa PET fechada.",
+      "active": true
+    },
+    {
+      "id": 6,
+      "name": "Eletrônicos",
+      "category": "Eletrônico",
+      "pointsPerKg": 30,
+      "description": "Celulares, carregadores, cabos e pequenos eletrônicos.",
+      "active": true
+    },
+    {
+      "id": 7,
+      "name": "Papel Branco",
+      "category": "Papel",
+      "pointsPerKg": 6,
+      "description": "Folhas de escritório, cadernos e jornais.",
+      "active": true
+    }
+  ],
+  "partners": [
+    {
+      "id": 1,
+      "name": "Mercado Verde",
+      "cnpj": "12.345.678/0001-90",
+      "email": "contato@mercadoverde.com.br",
+      "phone": "(11) 3333-1000",
+      "address": "Rua das Palmeiras, 120 - Centro",
+      "segment": "Supermercado",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "CineEco",
+      "cnpj": "23.456.789/0001-01",
+      "email": "parcerias@cineeco.com.br",
+      "phone": "(11) 3333-2000",
+      "address": "Av. Brasil, 2000 - Shopping Norte",
+      "segment": "Entretenimento",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Café Raiz",
+      "cnpj": "34.567.890/0001-12",
+      "email": "ola@caferaiz.com.br",
+      "phone": "(11) 3333-3000",
+      "address": "Rua do Comércio, 45 - Vila Nova",
+      "segment": "Alimentação",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "Pedal Livre Bicicletaria",
+      "cnpj": "45.678.901/0001-23",
+      "email": "loja@pedallivre.com.br",
+      "phone": "(11) 3333-4000",
+      "address": "Av. das Flores, 780 - Jardim Sul",
+      "segment": "Mobilidade",
+      "active": true
+    }
+  ],
+  "rewards": [
+    {
+      "id": 1,
+      "name": "Vale-compras R$ 10",
+      "description": "Crédito de R$ 10 em compras no Mercado Verde.",
+      "type": "produto",
+      "pointsCost": 150,
+      "stock": 50,
+      "partnerId": 1,
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Ingresso de Cinema",
+      "description": "Um ingresso 2D para qualquer sessão de segunda a quinta.",
+      "type": "serviço",
+      "pointsCost": 200,
+      "stock": 30,
+      "partnerId": 2,
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Café + Pão de Queijo",
+      "description": "Um café coado e um pão de queijo no Café Raiz.",
+      "type": "produto",
+      "pointsCost": 60,
+      "stock": 100,
+      "partnerId": 3,
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "Revisão Completa de Bicicleta",
+      "description": "Revisão geral com regulagem de freios e marchas.",
+      "type": "serviço",
+      "pointsCost": 300,
+      "stock": 10,
+      "partnerId": 4,
+      "active": true
+    },
+    {
+      "id": 5,
+      "name": "Ecobag Reutilizável",
+      "description": "Sacola retornável de algodão cru com a marca EcoPoints.",
+      "type": "produto",
+      "pointsCost": 80,
+      "stock": 40,
+      "partnerId": 1,
+      "active": true
+    },
+    {
+      "id": 6,
+      "name": "Combo Pipoca + Refrigerante",
+      "description": "Pipoca média e refrigerante 500 ml no CineEco.",
+      "type": "produto",
+      "pointsCost": 120,
+      "stock": 25,
+      "partnerId": 2,
+      "active": true
+    },
+    {
+      "id": 7,
+      "name": "Aluguel de Bike por 1 Dia",
+      "description": "Bicicleta urbana com capacete por 24 horas.",
+      "type": "serviço",
+      "pointsCost": 180,
+      "stock": 15,
+      "partnerId": 4,
+      "active": true
+    }
+  ],
+  "deliveries": [
+    { "id": 1, "userId": 2, "materialId": 1, "quantity": 20, "weightKg": 3.5, "pointsPerKg": 10, "points": 35, "date": "2026-09-05T10:15:00.000Z", "notes": "Garrafas limpas", "registeredBy": 1 },
+    { "id": 2, "userId": 2, "materialId": 3, "quantity": 60, "weightKg": 1.2, "pointsPerKg": 25, "points": 30, "date": "2026-09-12T16:40:00.000Z", "notes": "", "registeredBy": 2 },
+    { "id": 3, "userId": 3, "materialId": 1, "quantity": 30, "weightKg": 5, "pointsPerKg": 10, "points": 50, "date": "2026-09-18T11:00:00.000Z", "notes": "", "registeredBy": 1 },
+    { "id": 4, "userId": 2, "materialId": 2, "quantity": 5, "weightKg": 8, "pointsPerKg": 5, "points": 40, "date": "2026-09-25T09:30:00.000Z", "notes": "Caixas de mudança", "registeredBy": 1 },
+    { "id": 5, "userId": 3, "materialId": 3, "quantity": 100, "weightKg": 2, "pointsPerKg": 25, "points": 50, "date": "2026-10-02T15:10:00.000Z", "notes": "", "registeredBy": 3 },
+    { "id": 6, "userId": 2, "materialId": 6, "quantity": 2, "weightKg": 4.5, "pointsPerKg": 30, "points": 135, "date": "2026-10-08T13:25:00.000Z", "notes": "Notebook antigo e carregadores", "registeredBy": 1 },
+    { "id": 7, "userId": 3, "materialId": 2, "quantity": 8, "weightKg": 12, "pointsPerKg": 5, "points": 60, "date": "2026-10-15T10:05:00.000Z", "notes": "", "registeredBy": 1 },
+    { "id": 8, "userId": 2, "materialId": 5, "quantity": 3, "weightKg": 2.7, "pointsPerKg": 15, "points": 41, "date": "2026-10-20T17:50:00.000Z", "notes": "3 garrafas de 1L", "registeredBy": 2 },
+    { "id": 9, "userId": 3, "materialId": 4, "quantity": 6, "weightKg": 3.5, "pointsPerKg": 4, "points": 14, "date": "2026-10-27T12:00:00.000Z", "notes": "", "registeredBy": 1 },
+    { "id": 10, "userId": 2, "materialId": 4, "quantity": 10, "weightKg": 6, "pointsPerKg": 4, "points": 24, "date": "2026-11-03T09:00:00.000Z", "notes": "", "registeredBy": 1 },
+    { "id": 11, "userId": 3, "materialId": 6, "quantity": 1, "weightKg": 2, "pointsPerKg": 30, "points": 60, "date": "2026-11-07T14:30:00.000Z", "notes": "Celular quebrado", "registeredBy": 1 },
+    { "id": 12, "userId": 2, "materialId": 7, "quantity": 1, "weightKg": 4, "pointsPerKg": 6, "points": 24, "date": "2026-11-11T11:45:00.000Z", "notes": "Cadernos antigos", "registeredBy": 2 }
+  ],
+  "redemptions": [
+    { "id": 1, "userId": 2, "rewardId": 3, "pointsSpent": 60, "date": "2026-10-10T08:30:00.000Z", "code": "ECO-7K2M9Q", "status": "utilizado" },
+    { "id": 2, "userId": 3, "rewardId": 5, "pointsSpent": 80, "date": "2026-11-08T10:00:00.000Z", "code": "ECO-4TX8PL", "status": "disponível" }
+  ]
+}

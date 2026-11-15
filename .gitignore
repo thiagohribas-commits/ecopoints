@@ -1,0 +1,6 @@
+node_modules
+dist
+*.log
+
+# Configuração local do Claude Code
+.claude/
